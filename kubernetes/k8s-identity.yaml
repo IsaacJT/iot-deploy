@@ -48,7 +48,7 @@ spec:
     spec:
       containers:
         - name: identity
-          image: sonicblue/iot-identity
+          image: bugraaydogar/iot-identity
           volumeMounts:
             - name: certs
               mountPath: /srv/certs
